@@ -9,15 +9,30 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@headlessui/react": "^1.7.17",
+    "@tailwindcss/forms": "^0.5.7",
+    "hamburger-react": "^2.5.0",
+    "leaflet": "^1.9.4",
+    "leaflet-arrowheads": "^1.4.0",
+    "leaflet-polylinedecorator": "^1.6.0",
+    "leaflet-routing-machine": "^3.2.12",
+    "leaflet.markercluster": "^1.5.3",
+    "lodash": "^4.17.21",
+    "lottie-react": "^2.4.0",
+    "next": "^14.0.4",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.0.3"
+    "react-icons": "^4.12.0",
+    "react-leaflet": "^4.2.1",
+    "react-leaflet-google": "^4.0.0",
+    "react-leaflet-google-layer": "^2.2.0",
+    "recompose": "^0.17.0"
   },
   "devDependencies": {
-    "autoprefixer": "^10.0.1",
-    "postcss": "^8",
-    "tailwindcss": "^3.3.0",
+    "autoprefixer": "^10.4.16",
     "eslint": "^8",
-    "eslint-config-next": "14.0.3"
+    "eslint-config-next": "^14.0.3",
+    "postcss": "^8.4.32",
+    "tailwindcss": "^3.3.6"
   }
 }

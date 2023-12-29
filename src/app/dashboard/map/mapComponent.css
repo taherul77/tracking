@@ -1,0 +1,39 @@
+/* mapComponent.css */
+
+.custom-marker-label {
+  width: 8px;
+  height: 8px;
+  line-height: 8px;
+  font-weight: bold;
+  font-size: 8px;
+  justify-content: center;
+  align-items: center;
+}
+
+.label-container {
+  background-color: #007bff;
+  color: #ffffff;
+  border-radius: 10px;
+  padding: 4px;
+}
+
+/* Add your custom styles for the route line */
+.leaflet-routing-container {
+  background: none; /* or specify your desired background */
+}
+
+.leaflet-routing-container .leaflet-routing-alternatives-container {
+  background: none; /* or specify your desired background */
+}
+
+.leaflet-routing-container .leaflet-routing-alternative {
+  background: none; /* or specify your desired background */
+  color: #007bff; /* or specify your desired text color */
+  border: 1px solid #007bff; /* or specify your desired border style */
+}
+
+.leaflet-routing-container .leaflet-routing-instructions-container {
+  background: none; /* or specify your desired background */
+}
+
+/* Add more styles as needed */
