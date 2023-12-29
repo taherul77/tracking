@@ -179,7 +179,7 @@ const Nav = ({
           </div>
 
           {showDropdown && (
-            <div className="flex  absolute -top-3 right-10 bg-gray-100 p-2 gap-2">
+            <div className=" absolute -top-3 right-10 bg-gray-100 p-2 gap-2">
               <button
                 className="hover:bg-blue-500 hover:text-white text-sm  border rounded-md shadow-md p-2"
                 onClick={() => handleOptionClick("Hover")}
