@@ -13,11 +13,11 @@ const MapPage = () => {
   const position = [24, 90];
 
   return (
-    <div className="lg:w-full h-[calc(100vh-3rem)]">
-      <MapContainer center={position} zoom={7} >
-        <ReactLeafletGoogleLayer apiKey="AIzaSyAf9yCy5ZZ6iEo0EyOWjUg4EpUHIeuZVWQ" />
+    <div className="lg:w-full z-10 h-[calc(100vh-3rem)]">
+      <MapContainer className="z-10" center={position} zoom={7} >
+        <ReactLeafletGoogleLayer className="z-10" apiKey="AIzaSyAf9yCy5ZZ6iEo0EyOWjUg4EpUHIeuZVWQ" />
 
-        <MapComponent cities={cities} />
+        <MapComponent className="z-10" cities={cities} />
         <LayersControl position="topright">
           <LayersControl.Overlay name="Google Map Satellite View">
             {" "}

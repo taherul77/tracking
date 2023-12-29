@@ -40,7 +40,7 @@ const LayersControl = dynamic(
 const DashboardHome = () => {
   const mapRef =useRef();
   return (
-    <div className="">
+    <div className="z-10">
       <MapContainer
         center={[24, 90]}
         zoom={7}

@@ -1,4 +1,3 @@
-
 "use client";
 import React, { useEffect, useState } from "react";
 
@@ -102,7 +101,6 @@ const Nav = ({
         >
           <form className="flex items-center">
             <div className="relative  pl-3">
-             
               <input
                 type="text"
                 id="simple-search"
@@ -124,16 +122,20 @@ const Nav = ({
                       className="dropdown-item m-2"
                       onClick={() => handleEmployeeNoSelection(item.employeNo)}
                     >
-                      <p className="text-sm"> {item.employeNo} :- <span className="text-bold">{item.employeName}</span> </p>
-                     
+                      <p className="text-sm">
+                        {" "}
+                        {item.employeNo} :-{" "}
+                        <span className="text-bold">{item.employeName}</span>{" "}
+                      </p>
                     </div>
                   ))}
                 </div>
               )}
             </div>
-           
-              <>
-                <Link href="/dashboard/map"><button
+
+            <>
+              <Link href="/dashboard/map">
+                <button
                   onClick={handleSearchButtonClick}
                   type="submit"
                   className="p-2.5 ms-2 text-sm font-medium text-white bg-blue-700 rounded-lg border border-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
@@ -154,32 +156,40 @@ const Nav = ({
                     />
                   </svg>
                   <span className="sr-only">Search</span>
-                </button></Link>
-                
-              </>
-           
+                </button>
+              </Link>
+            </>
           </form>
-
-
-
-
-          
         </div>
       </div>
 
       {/* <Toggle enabled={showQuickBar} setEnabled={setShowQuickBar} /> */}
 
-      <div className="flex  items-center lg:space-x-4  space-x-2">
+      <div className="flex items-center lg:space-x-4  space-x-2">
         <div className="relative">
           <div
-            onClick={handleDropdownClick}
-            className="cursor-pointer hover:bg-black/20 transition-all rounded-full p-2"
+            // onClick={handleDropdownClick}
+            className="cursor-pointer group hover:bg-black/20 transition-all rounded-full p-2"
           >
             <IoSettingsOutline />
+         
+          <div className=" absolute z-50 group-hover:block hidden -top-3 right-10 bg-gray-100 p-2 gap-2">
+            <button
+              className="hover:bg-blue-500 hover:text-white text-sm  border rounded-md shadow-md p-2"
+              onClick={() => handleOptionClick("Hover")}
+            >
+              Hover
+            </button>
+            <button
+              className="hover:bg-blue-500 hover:text-white border rounded-md  text-sm shadow-md p-2"
+              onClick={() => handleOptionClick("Click")}
+            >
+              Click
+            </button>
           </div>
-
-          {showDropdown && (
-            <div className=" absolute -top-3 right-10 bg-gray-100 p-2 gap-2">
+          </div>
+          {/* {showDropdown && (
+            <div className=" absolute z-50 -top-3 right-10 bg-gray-100 p-2 gap-2">
               <button
                 className="hover:bg-blue-500 hover:text-white text-sm  border rounded-md shadow-md p-2"
                 onClick={() => handleOptionClick("Hover")}
@@ -193,7 +203,7 @@ const Nav = ({
                 Click
               </button>
             </div>
-          )}
+          )} */}
         </div>
 
         <Link href={"/"}>
