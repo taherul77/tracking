@@ -1,45 +1,89 @@
 "use client";
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import "./style.css";
+import { useQuery } from "react-query";
 import ReactLeafletGoogleLayer from "react-leaflet-google-layer";
-import cities from "./locationData.json";
-import { MapContainer, LayersControl, TileLayer } from "react-leaflet";
+import { MapContainer } from "react-leaflet";
 import "leaflet.markercluster/dist/MarkerCluster.css";
 import "leaflet.markercluster/dist/MarkerCluster.Default.css";
 import "leaflet.markercluster";
-import MapComponent from "./MapComponent";
+import { useRouter } from "next/navigation";
+import MyMapComponent from "@/app/components/dashboard/Map/MapComponent";
 
 const MapPage = () => {
+  const router = useRouter();
+
+  // const fetchSingleEmployeeData = async () => {
+  //   const authToken = localStorage.getItem("Token");
+  //   const storedid = localStorage.getItem("id");
+
+  //   const response = await fetch(
+  //     `${process.env.NEXT_PUBLIC_NEXT_API}/empTrackInfo/findAllTrackInfosByEmpNo/${storedid}`,
+  //     {
+  //       method: "GET",
+  //       headers: {
+  //         "Content-Type": "application/json",
+  //         Authorization: `Bearer ${authToken}`,
+  //       },
+  //     }
+  //   );
+
+  //   if (!response.ok) {
+  //     throw new Error("Error fetching data");
+  //   }
+  //   router.refresh();
+  //   return response.json();
+  // };
+
+  // const { data } = useQuery("singleEmployeeData", fetchSingleEmployeeData);
+
+  const [id, setId] = useState("");
+
+  useEffect(() => {
+    const storedid = localStorage.getItem("id");
+    if (storedid) {
+      setId(storedid);
+    }
+  });
+
+  const fetchSingleEmployeeData = async () => {
+    const authToken = localStorage.getItem("Token");
+    console.log("eid", id);
+    const response = await fetch(
+      `${process.env.NEXT_PUBLIC_NEXT_API}/empTrackInfo/findAllTrackInfosByEmpNo/${id}`,
+      {
+        method: "GET",
+        headers: {
+          "Content-Type": "application/json",
+          Authorization: `Bearer ${authToken}`,
+        },
+      }
+    );
+
+    if (!response.ok) {
+      throw new Error("Error fetching data");
+    }
+
+    return response.json();
+  };
+  // console.log(id);
+  const { data } = useQuery("singleEmployeeData", () =>
+    fetchSingleEmployeeData(id)
+  );
+  console.log(data);
   const position = [24, 90];
 
   return (
-    <div className="lg:w-full z-10 h-[calc(100vh-3rem)]">
-      <MapContainer className="z-10" center={position} zoom={7} >
-        <ReactLeafletGoogleLayer className="z-10" apiKey="AIzaSyAf9yCy5ZZ6iEo0EyOWjUg4EpUHIeuZVWQ" />
-
-        <MapComponent className="z-10" cities={cities} />
-        <LayersControl position="topright">
-          <LayersControl.Overlay name="Google Map Satellite View">
-            {" "}
-            <ReactLeafletGoogleLayer
-              apiKey="AIzaSyAf9yCy5ZZ6iEo0EyOWjUg4EpUHIeuZVWQ"
-              type={"satellite"}
-            />
-          </LayersControl.Overlay>
-          <LayersControl.Overlay name="Google Map Streets View">
-            {" "}
-            <TileLayer url="https://api.maptiler.com/maps/streets-v2/256/{z}/{x}/{y}.png?key=BdlsqKLKv7xFNHX54mgj" />
-          </LayersControl.Overlay>
-          <LayersControl.Overlay name="Google Map Bright View">
-            <TileLayer url="https://api.maptiler.com/maps/bright-v2/256/{z}/{x}/{y}.png?key=BdlsqKLKv7xFNHX54mgj" />
-          </LayersControl.Overlay>
-          <LayersControl.Overlay name="Google Map Backdrop View">
-            <TileLayer url="https://api.maptiler.com/maps/backdrop/256/{z}/{x}/{y}.png?key=BdlsqKLKv7xFNHX54mgj" />
-          </LayersControl.Overlay>
-          <LayersControl.Overlay name="Google Map Winter View">
-            <TileLayer url="https://api.maptiler.com/maps/winter-v2/256/{z}/{x}/{y}.png?key=BdlsqKLKv7xFNHX54mgj" />{" "}
-          </LayersControl.Overlay>
-        </LayersControl>
+    <div className="z-10">
+      <MapContainer
+        center={position}
+        zoom={7}
+        className="w-full h-[calc(100vh-4rem)] "
+      >
+        <ReactLeafletGoogleLayer
+          apiKey={process.env.NEXT_PUBLIC_GOOGLE_API_KEY}
+        />
+        <MyMapComponent data={data} />
       </MapContainer>
     </div>
   );

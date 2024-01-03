@@ -1,0 +1,46 @@
+/* mapComponent.css */
+
+.custom-marker-label {
+    width: 12px;
+    height: 12px;
+   
+    font-weight: bold;
+    font-size: 8px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .label-container {
+    background-color: #007bff;
+    color: #ffffff;
+    border-radius: 10px;
+    padding: 3px;
+  }
+  
+  
+  .leaflet-routing-container {
+    background: none; 
+  }
+  
+  .leaflet-routing-container .leaflet-routing-alternatives-container {
+    background: none; 
+  }
+  
+  .leaflet-routing-container .leaflet-routing-alternative {
+    background: none; 
+    color: #007bff; 
+    border: 1px solid #007bff; 
+  }
+  
+  .leaflet-routing-container .leaflet-routing-instructions-container {
+    background: none; 
+  }
+  
+  /* Add more styles as needed */
+  .red-label-container {
+    color: red;
+  }
+  
+  .green-label-container {
+    color: green;
+  }

@@ -1,0 +1,605 @@
+
+
+[
+    {
+      "name": "Barishal",
+      "mlatitute": 22.7010,
+      "mlongitute": 90.3535
+    },
+    {
+      "name": "Chattogram",
+      "mlatitute": 22.3752,
+      "mlongitute":  91.8349
+    },
+    {
+      "name": "Dhaka",
+      "mlatitute": 23.8103,
+      "mlongitute": 90.4125
+    },
+    {
+      "name": "Khulna",
+      "mlatitute": 22.8456,
+      "mlongitute": 89.5403
+    },
+    {
+      "name": "Mymensingh",
+      "mlatitute": 24.7467,
+      "mlongitute": 90.4024
+    },
+    {
+      "name": "Rajshahi",
+      "mlatitute": 24.3636,
+      "mlongitute": 88.6241
+    },
+    {
+      "name": "Rangpur",
+      "mlatitute": 25.7439,
+      "mlongitute": 89.2752
+    },
+    {
+      "name": "Sylhet",
+      "mlatitute": 24.8998,
+      "mlongitute": 91.8687
+    },
+    {
+        "name": "Barguna",
+        "mlatitute": 22.0953,
+        "mlongitute": 90.1126
+      },
+      {
+        "name": "Barishal",
+        "mlatitute": 22.7010,
+        "mlongitute": 90.3535
+      },
+      {
+        "name": "Bhola",
+        "mlatitute": 22.3244,
+        "mlongitute": 90.7586
+      },
+      {
+        "name": "Jhalokathi",
+        "mlatitute": 22.6406,
+        "mlongitute": 90.1950
+      },
+      {
+        "name": "Patuakhali",
+        "mlatitute": 22.3599,
+        "mlongitute": 90.3298
+      },
+      {
+        "name": "Pirojpur",
+        "mlatitute": 22.5797,
+        "mlongitute": 89.9736
+      },
+      {
+        "name": "Bandarban",
+        "mlatitute": 22.1953,
+        "mlongitute": 92.2196
+      },
+      {
+        "name": "Brahmanbaria",
+        "mlatitute": 23.9570,
+        "mlongitute": 91.1110
+      },
+      {
+        "name": "Chandpur",
+        "mlatitute": 23.2333,
+        "mlongitute": 90.6718
+      },
+      {
+        "name": "Cox's Bazar",
+        "mlatitute": 21.4272,
+        "mlongitute": 92.0061
+      },
+      {
+        "name": "Cumilla",
+        "mlatitute": 23.4681,
+        "mlongitute": 91.1789
+      },
+      {
+        "name": "Feni",
+        "mlatitute": 23.0238,
+        "mlongitute": 91.3849
+      },
+      {
+        "name": "Khagrachari",
+        "mlatitute": 23.1193,
+        "mlongitute": 91.9847
+      },
+      {
+        "name": "Lakshmipur",
+        "mlatitute": 22.9425,
+        "mlongitute": 90.8418
+      },
+      {
+        "name": "Noakhali",
+        "mlatitute": 22.8697,
+        "mlongitute": 91.0998
+      },
+      {
+        "name": "Rangamati",
+        "mlatitute": 22.5470,
+        "mlongitute": 92.2206
+      },
+      {
+        "name": "Dhaka",
+        "mlatitute": 23.8103,
+        "mlongitute": 90.4125
+      },
+      {
+        "name": "Faridpur",
+        "mlatitute": 23.6071,
+        "mlongitute": 89.8429
+      },
+      {
+        "name": "Gazipur",
+        "mlatitute": 23.9948,
+        "mlongitute": 90.4203
+      },
+      {
+        "name": "Gopalganj",
+        "mlatitute": 23.0053,
+        "mlongitute": 89.8260
+      },
+      {
+        "name": "Kishoreganj",
+        "mlatitute": 24.4445,
+        "mlongitute": 90.7762
+      },
+      {
+        "name": "Madaripur",
+        "mlatitute": 23.1696,
+        "mlongitute": 90.2010
+      },
+      {
+        "name": "Manikganj",
+        "mlatitute": 23.8615,
+        "mlongitute": 90.0026
+      },
+      {
+        "name": "Munshiganj",
+        "mlatitute": 23.5448,
+        "mlongitute": 90.5307
+      },
+      {
+        "name": "Narayanganj",
+        "mlatitute": 23.6337,
+        "mlongitute": 90.4966
+      },
+      {
+        "name": "Narsingdi",
+        "mlatitute": 23.9322,
+        "mlongitute": 90.7159
+      },
+      {
+        "name": "Rajbari",
+        "mlatitute": 23.7574,
+        "mlongitute": 89.6445
+      },
+      {
+        "name": "Shariatpur",
+        "mlatitute": 23.2426,
+        "mlongitute": 90.4344
+      },
+      {
+        "name": "Tangail",
+        "mlatitute": 24.3927,
+        "mlongitute": 89.9208
+      },
+      {
+        "name": "Bagerhat",
+        "mlatitute": 22.6516,
+        "mlongitute": 89.7854
+      },
+      {
+        "name": "Chuadanga",
+        "mlatitute": 23.6402,
+        "mlongitute": 88.8410
+      },
+      {
+        "name": "Jashore",
+        "mlatitute": 23.1664,
+        "mlongitute": 89.2132
+      },
+      {
+        "name": "Jhenaidah",
+        "mlatitute": 23.5448,
+        "mlongitute": 89.1539
+      },
+      {
+        "name": "Khulna",
+        "mlatitute": 22.8456,
+        "mlongitute": 89.5403
+      },
+      {
+        "name": "Kushtia",
+        "mlatitute": 23.9016,
+        "mlongitute": 89.1204
+      },
+      {
+        "name": "Magura",
+        "mlatitute": 23.4873,
+        "mlongitute": 89.4195
+      },
+      {
+        "name": "Meherpur",
+        "mlatitute": 23.7627,
+        "mlongitute": 88.6329
+      },
+      {
+        "name": "Narail",
+        "mlatitute": 23.1724,
+        "mlongitute": 89.5124
+      },
+      {
+        "name": "Satkhira",
+        "mlatitute": 22.7204,
+        "mlongitute": 89.0760
+      },
+      {
+        "name": "Bogura",
+        "mlatitute": 24.8480,
+        "mlongitute": 89.3723
+      },
+      {
+        "name": "Chapai Nawabganj",
+        "mlatitute": 24.5965,
+        "mlongitute": 88.2786
+      },
+      {
+        "name": "Joypurhat",
+        "mlatitute": 25.0974,
+        "mlongitute": 89.0238
+      },
+      {
+        "name": "Naogaon",
+        "mlatitute": 24.7936,
+        "mlongitute": 88.9601
+      },
+      {
+        "name": "Natore",
+        "mlatitute": 24.4116,
+        "mlongitute": 88.9773
+      },
+      {
+        "name": "Pabna",
+        "mlatitute": 23.9988,
+        "mlongitute": 89.2335
+      },
+      {
+        "name": "Rajshahi",
+        "mlatitute": 24.3636,
+        "mlongitute": 88.6241
+      },
+      {
+        "name": "Sirajganj",
+        "mlatitute": 24.4519,
+        "mlongitute": 89.7024
+      },
+      {
+        "name": "Habiganj",
+        "mlatitute": 24.3745,
+        "mlongitute": 91.4155
+      },
+      {
+        "name": "Maulvibazar",
+        "mlatitute": 24.4884,
+        "mlongitute": 91.7706
+      },
+      {
+        "name": "Sunamganj",
+        "mlatitute": 25.0632,
+        "mlongitute": 91.4051
+      },
+      {
+        "name": "Sylhet",
+        "mlatitute": 24.8898,
+        "mlongitute": 91.8697
+      },
+      {
+        "name": "Amtali",
+        "mlatitute": 22.0788,
+        "mlongitute": 90.0598
+      },
+      {
+        "name": "Bamna",
+        "mlatitute": 22.1976,
+        "mlongitute": 90.0434
+      },
+      {
+        "name": "Barguna Sadar",
+        "mlatitute": 22.0953,
+        "mlongitute": 90.1126
+      },
+      {
+        "name": "Betagi",
+        "mlatitute": 22.0056,
+        "mlongitute": 90.0426
+      },
+      {
+        "name": "Patharghata",
+        "mlatitute": 22.0448,
+        "mlongitute": 90.1175
+      },
+      {
+        "name": "Taltali",
+        "mlatitute": 22.2789,
+        "mlongitute": 89.9114
+      },
+      {
+        "name": "Abhaynagar",
+        "mlatitute": 23.0043,
+        "mlongitute": 89.0622
+      },
+      {
+        "name": "Bagherpara",
+        "mlatitute": 23.0847,
+        "mlongitute": 89.1819
+      },
+      {
+        "name": "Chaugacha",
+        "mlatitute": 23.3080,
+        "mlongitute": 89.1182
+      },
+      {
+        "name": "Chaugachha",
+        "mlatitute": 23.3090,
+        "mlongitute": 89.1180
+      },
+      {
+        "name": "Jashore Sadar",
+        "mlatitute": 23.1683,
+        "mlongitute": 89.2090
+      },
+      {
+        "name": "Jessore Sadar",
+        "mlatitute": 23.1786,
+        "mlongitute": 89.2242
+      },
+      {
+        "name": "Jhikargacha",
+        "mlatitute": 23.1982,
+        "mlongitute": 89.1415
+      },
+      {
+        "name": "Jhikargachha",
+        "mlatitute": 23.1981,
+        "mlongitute": 89.1414
+      },
+      {
+        "name": "Keshabpur",
+        "mlatitute": 23.1444,
+        "mlongitute": 89.0327
+      },
+      {
+        "name": "Monirampur",
+        "mlatitute": 23.1263,
+        "mlongitute": 89.1596
+      },
+      {
+        "name": "Sharsha",
+        "mlatitute": 23.0491,
+        "mlongitute": 89.2133
+      },
+      {
+        "name": "Batiaghata",
+        "mlatitute": 22.3487,
+        "mlongitute": 89.5925
+      },
+      {
+        "name": "Dacope",
+        "mlatitute": 22.4791,
+        "mlongitute": 89.4076
+      },
+      {
+        "name": "Daulatpur",
+        "mlatitute": 22.8503,
+        "mlongitute": 89.5262
+      },
+      {
+        "name": "Dighalia",
+        "mlatitute": 22.6462,
+        "mlongitute": 89.2203
+      },
+      {
+        "name": "Dumuria",
+        "mlatitute": 22.6874,
+        "mlongitute": 89.0748
+      },
+      {
+        "name": "Khalishpur",
+        "mlatitute": 22.8310,
+        "mlongitute": 89.5409
+      },
+      {
+        "name": "Khan Jahan Ali",
+        "mlatitute": 22.8544,
+        "mlongitute": 89.5692
+      },
+      {
+        "name": "Khulna Sadar",
+        "mlatitute": 22.8374,
+        "mlongitute": 89.5314
+      },
+      {
+        "name": "Koyra",
+        "mlatitute": 22.0416,
+        "mlongitute": 89.2676
+      },
+      {
+        "name": "Paikgacha",
+        "mlatitute": 22.1419,
+        "mlongitute": 89.2041
+      },
+      {
+        "name": "Paikgachha",
+        "mlatitute": 22.1417,
+        "mlongitute": 89.2040
+      },
+      {
+        "name": "Phultala",
+        "mlatitute": 22.3036,
+        "mlongitute": 89.1625
+      },
+      {
+        "name": "Rupsa",
+        "mlatitute": 22.5522,
+        "mlongitute": 89.4490
+      },
+      {
+        "name": "Sonadanga",
+        "mlatitute": 22.8243,
+        "mlongitute": 89.5539
+      },
+      {
+        "name": "Terokhada",
+        "mlatitute": 22.2214,
+        "mlongitute": 89.2722
+      },
+      {
+        "name": "Bheramara",
+        "mlatitute": 23.0126,
+        "mlongitute": 89.2304
+      },
+      {
+        "name": "Daulatpur",
+        "mlatitute": 23.1730,
+        "mlongitute": 89.2179
+      },
+      {
+        "name": "Khoksa",
+        "mlatitute": 23.0514,
+        "mlongitute": 89.1337
+      },
+      {
+        "name": "Kumarkhali",
+        "mlatitute": 23.3144,
+        "mlongitute": 89.1875
+      },
+      {
+        "name": "Kushtia Sadar",
+        "mlatitute": 23.9036,
+        "mlongitute": 89.1237
+      },
+      {
+        "name": "Harinakunda",
+        "mlatitute": 23.5448,
+        "mlongitute": 89.1721
+      },
+      {
+        "name": "Jhenaidah Sadar",
+        "mlatitute": 23.5491,
+        "mlongitute": 89.1539
+      },
+      {
+        "name": "Kaliganj",
+        "mlatitute": 23.4614,
+        "mlongitute": 88.9755
+      },
+      {
+        "name": "Kotchandpur",
+        "mlatitute": 23.2565,
+        "mlongitute": 88.9528
+      },
+      {
+        "name": "Maheshpur",
+        "mlatitute": 23.0989,
+        "mlongitute": 88.9425
+      },
+      {
+        "name": "Shailkupa",
+        "mlatitute": 23.1735,
+        "mlongitute": 88.9407
+      },
+      {
+        "name": "Bagerhat Sadar",
+        "mlatitute": 22.6516,
+        "mlongitute": 89.7915
+      },
+      {
+        "name": "Chitalmari",
+        "mlatitute": 22.4849,
+        "mlongitute": 89.8764
+      },
+      {
+        "name": "Fakirhat",
+        "mlatitute": 22.6270,
+        "mlongitute": 89.7069
+      },
+      {
+        "name": "Kachua",
+        "mlatitute": 22.5283,
+        "mlongitute": 89.8694
+      },
+      {
+        "name": "Mollahat",
+        "mlatitute": 22.4053,
+        "mlongitute": 89.7895
+      },
+      {
+        "name": "Mongla",
+        "mlatitute": 22.3384,
+        "mlongitute": 89.5844
+      },
+      {
+        "name": "Morrelganj",
+        "mlatitute": 22.4569,
+        "mlongitute": 89.7622
+      },
+      {
+        "name": "Rampal",
+        "mlatitute": 22.4268,
+        "mlongitute": 89.7076
+      },
+      {
+        "name": "Sarankhola",
+        "mlatitute": 22.2940,
+        "mlongitute": 89.7878
+      },
+      {
+        "name": "Alamdanga",
+        "mlatitute": 23.5505,
+        "mlongitute": 88.9246
+      },
+      {
+        "name": "Chuadanga Sadar",
+        "mlatitute": 23.6404,
+        "mlongitute": 88.8785
+      },
+      {
+        "name": "Damurhuda",
+        "mlatitute": 23.7125,
+        "mlongitute": 88.8695
+      },
+      {
+        "name": "Jibannagar",
+        "mlatitute": 23.6426,
+        "mlongitute": 88.7954
+      },
+      {
+        "name": "Jiban Nagar",
+        "mlatitute": 23.6426,
+        "mlongitute": 88.7954
+      },
+      {
+        "name": "Magura Sadar",
+        "mlatitute": 23.4874,
+        "mlongitute": 89.4195
+      },
+      {
+        "name": "Mohammadpur",
+        "mlatitute": 23.4668,
+        "mlongitute": 89.3349
+      },
+      {
+        "name": "Shalikha",
+        "mlatitute": 23.4435,
+        "mlongitute": 89.4736
+      },
+      {
+        "name": "Sreepur",
+        "mlatitute": 23.3713,
+        "mlongitute": 89.2990
+      }
+  ]
+  
